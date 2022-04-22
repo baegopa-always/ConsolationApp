@@ -25,7 +25,7 @@ export default function LoginButton() {
 
 function Login(){
   return (<div className="outer">
-        <Authenticator socialProviders={['facebook', 'google']} formFields={formFields} components={components}>
+        <Authenticator formFields={formFields} components={components} socialProviders={['google']}>
             {({ signOut, user }) => (
               <main align="center">
                 <h1>안녕하세요<br></br>{user.attributes.name}님</h1>

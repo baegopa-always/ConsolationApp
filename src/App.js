@@ -5,6 +5,10 @@ import awsExports from './aws-exports';
 import Home from './Home';
 
 Amplify.configure(awsExports);
+const Configure ={
+  accessKey: process.env.AWS_ACCESS_KEY,
+  secretKey: process.env.AWS_SECRET_KEY
+}
 
 export default function App() {
   return (<Home/>)

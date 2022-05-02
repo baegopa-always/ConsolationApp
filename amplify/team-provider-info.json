@@ -1,4 +1,22 @@
 {
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-consolationapp-master-20646-authRole",
+      "UnauthRoleArn": "arn:aws:iam::032698671741:role/amplify-consolationapp-master-20646-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::032698671741:role/amplify-consolationapp-master-20646-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-consolationapp-master-20646-deployment",
+      "UnauthRoleName": "amplify-consolationapp-master-20646-unauthRole",
+      "StackName": "amplify-consolationapp-master-20646",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:032698671741:stack/amplify-consolationapp-master-20646/858a9810-c9bc-11ec-a8e3-0a6a43f4795e",
+      "AmplifyAppId": "d1v65us4879kzp"
+    },
+    "categories": {
+      "auth": {
+        "consolationapp0e819641": {}
+      }
+    }
+  },
   "staging": {
     "awscloudformation": {
       "AuthRoleName": "amplify-amplify16f127a640dd4-staging-81938-authRole",

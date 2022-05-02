@@ -3,12 +3,12 @@
 
 const awsmobile = {
     "aws_project_region": "ap-northeast-2",
-    "aws_cognito_identity_pool_id": "ap-northeast-2:eb92e19d-973a-4b2f-af26-5d363c163e00",
+    "aws_cognito_identity_pool_id": "ap-northeast-2:d0907d1b-e2b1-415b-8d81-0eb18c4b8b6d",
     "aws_cognito_region": "ap-northeast-2",
-    "aws_user_pools_id": "ap-northeast-2_S8NlSAZRi",
-    "aws_user_pools_web_client_id": "sae502c39nhv97e7nug7u8h03",
+    "aws_user_pools_id": "ap-northeast-2_0N11D2wnf",
+    "aws_user_pools_web_client_id": "64a79db4ktjjr5ojo7c8o8e89r",
     "oauth": {
-        "domain": "consolationapp319e96e3-319e96e3-staging.auth.ap-northeast-2.amazoncognito.com",
+        "domain": "googlesignin-master.auth.ap-northeast-2.amazoncognito.com",
         "scope": [
             "phone",
             "email",
@@ -16,17 +16,15 @@ const awsmobile = {
             "profile",
             "aws.cognito.signin.user.admin"
         ],
-        "redirectSignIn": "https://master.d1v65us4879kzp.amplifyapp.com/,http://localhost:3000/",
-        "redirectSignOut": "https://master.d1v65us4879kzp.amplifyapp.com/,http://localhost:3000/",
+        "redirectSignIn": "https://master.d1v65us4879kzp.amplifyapp.com/",
+        "redirectSignOut": "https://master.d1v65us4879kzp.amplifyapp.com/",
         "responseType": "code"
     },
     "federationTarget": "COGNITO_USER_POOLS",
     "aws_cognito_username_attributes": [
         "EMAIL"
     ],
-    "aws_cognito_social_providers": [
-        "GOOGLE"
-    ],
+    "aws_cognito_social_providers": [],
     "aws_cognito_signup_attributes": [
         "EMAIL"
     ],

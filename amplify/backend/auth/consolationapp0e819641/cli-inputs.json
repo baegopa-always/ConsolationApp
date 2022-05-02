@@ -62,7 +62,8 @@
     "hostedUIDomainName": "googlesignin",
     "authProvidersUserPool": [],
     "hostedUIProviderMeta": "[]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://master.d1v65us4879kzp.amplifyapp.com/\"],\"LogoutURLs\":[\"https://master.d1v65us4879kzp.amplifyapp.com/\"]}",
-    "authProviders": []
+    "authProviders": [],
+    "hostedUIProviderCreds": "[]",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://master.d1v65us4879kzp.amplifyapp.com/\",\"http://localhost:3000/\"],\"LogoutURLs\":[\"https://master.d1v65us4879kzp.amplifyapp.com/oauth2/idpresponse/\",\"http://localhost:3000/oauth2/idpresponse/\"]}"
   }
 }

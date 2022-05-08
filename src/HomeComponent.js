@@ -1,15 +1,17 @@
 import { Tabs,TabItem } from "@aws-amplify/ui-react";
+import Overview from "./Overview";
+import Contact from "./Contact";
 
 export default function HomeComponent(){
     return(
-      <Tabs justifyContent="center" spacing="equal">
+      <main>
+      <Tabs justifyContent="center" spacing="equal" indicatorPosition="top">
   <TabItem title="Overview">
-    내용 추가 1
-  
+      <Overview/>
   </TabItem>
   <TabItem title="Contact">
-    내용 추가 2
+    <Contact/>
   </TabItem>
-</Tabs>
+</Tabs></main>
     )
 }

@@ -6,7 +6,7 @@ const components = {
   
       return (
         <View textAlign="center" padding={tokens.space.large}>
-          <img src={require('./img/logo.png')} width="50%" height="30%" alt="logo"/>
+          <img src={require('./img/HomeOpening/logo.png')} width="50%" height="30%" alt="logo"/>
         </View>
       );
     },

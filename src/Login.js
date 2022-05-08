@@ -28,7 +28,7 @@ function Login(){
         <Authenticator formFields={formFields} components={components} socialProviders={['google']}>
             {({ signOut, user }) => (
               <main align="center">
-                <h1>안녕하세요<br></br>{user.attributes.name}님</h1>
+                <br/><h1>안녕하세요<br></br>{user.attributes.name}님</h1>
                 <Button onClick={signOut} size="large">로그아웃</Button>
               </main>
             )}

@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 .outer::-webkit-scrollbar {
   display: none;
@@ -16,13 +16,10 @@ code {
 }
 .outer {
   height: 100vh;
-  overflow-y: auto;
+  overflow-y: hidden;
   background-color: #ffffff;
   background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
   background-size: cover;
-}
-.outer::-webkit-scrollbar {
-  display: none;
 }
 .amplify-button[data-variation='primary'] {
   background: linear-gradient(
@@ -33,4 +30,45 @@ code {
 }
 [data-amplify-authenticator] {
   --amplify-components-authenticator-container-width-max: 100%;
+}
+.home {
+  height: 100vh;
+  overflow-y: auto;
+  width:100%;
+  background-image: linear-gradient(#ffffff 0%, #e9e9e9 20%);
+}
+.home::-webkit-scrollbar {
+  display: none;
+}
+.center-h1{
+  text-align: center;
+  margin-top: 5%;
+  font-size:xx-large;
+  background-image: url('./img/HomeOpening/speech.png');
+  background-size: 50% 25%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.center-h2{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.bground {
+  background-image: url('./img/HomeOpening/Comforting.png');
+  height:100%;
+  background-size: cover;
+  width: 100%;
+  margin-top: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.container p {
+  margin-left: 12%;
+  text-align: center;
 }
